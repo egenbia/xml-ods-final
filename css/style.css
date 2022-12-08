@@ -1,0 +1,145 @@
+body{
+    background-color: #e8e4d9;
+}
+
+.wrapper{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.capa{
+    width: 100%;
+    height: 100%;
+}
+
+#capa1{
+    position: relative;
+    background: url(../img/j.jpg) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.titulo{
+    position: absolute;
+    width: 100%;
+    top: 5%;
+    background-color: #00000080;
+    padding: 5%;
+    padding-left: 13vw;
+
+
+    font-family: 'Courier New';
+    font-weight: 10;
+    font-size: min(115px, 14vw);
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.titulo1{
+    font-family: 'Courier New';
+    font-weight: 450;
+    padding-bottom: 4%;
+    text-shadow: 1px 3px 0px #176730;
+}
+
+.texto{
+    font-family: 'Centaur';
+    font-weight: 500;
+    font-size: min(30px, 3vw);
+}
+
+.c2{
+    position: relative;
+    top: -200px;
+    background: #47a39c;
+    padding: 4%;
+}
+
+#j2{
+    height: 60%;
+    width: 70%; 
+    margin-top: 20%;
+    border-radius: 20px;
+}
+.carrossel{
+    position: relative;
+    top: -100px;
+}
+
+.q2{
+    position: relative;
+    padding: 6%;
+    background: #084231d8;
+    border-radius: 20px;
+}
+
+.titulo2{
+    font-family: 'Courier New';
+    font-weight: 400;
+    font-size: min(50px, 6vw);
+    margin-top: -5%;
+}
+
+.texto1{
+    font-family: 'Centaur';
+    font-weight: 500;
+    font-size: min(25px, 2vw);
+}
+
+.texto-r{
+    font-family: 'Centaur';
+    font-weight: 500;
+    font-size: min(19px, 3vw);
+    max-width: 50%;
+    padding-left: 5%;
+    padding-bottom: 10%;
+}
+
+.link{
+    font-family: 'Centaur';
+    padding-left: 5%;
+    padding-bottom: 10%;
+}
+
+a:link{
+    color: #000000;
+    text-decoration: none;
+
+}
+
+a:visited{
+    color: #000000;
+    text-decoration: none;
+
+}
+
+.traco{
+    width: 100%;
+    height: 3px;
+    background: #000000;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+#icon{
+    height: 32px;
+    margin: 12px;
+}
+
+.metas{
+ margin-top: -7%;
+ margin-left: 10%;
+ width: 30%;
+ height: 150%;
+}
+
+.metas1{
+    position: absolute;
+ margin-top: -50%;
+ margin-left: 50%;
+ width: 30%;
+ height: 80%;
+}
